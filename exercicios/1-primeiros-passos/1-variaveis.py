@@ -9,3 +9,9 @@
 
 
 # Declare uma variável do tipo booleano
+profesoes = "ingeneirho"
+anos = 45
+estado = True
+print('Profesoes: ', profesoes)
+print('Anos: ', anos)
+print('Estado: ', estado)
