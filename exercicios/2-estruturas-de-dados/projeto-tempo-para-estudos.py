@@ -15,4 +15,6 @@ Total_horas = input('Digite horas que estudo por dia: ');
 curso = input('Digite nome do curso: ');
 
 # 5. Imprima na tela uma frase informando o nome da estudante, o total_dias dedicados aos estudos, o total horas semanais e o curso.
-print('A pessoa ' + nome + ' estudo em ' + Total_dias + ' dias ' + Total_horas + ' horas por dia, em total estudo' + (Total_dias * Total_horas) + ' horas pela semana pra o curso ' + curso);
+total = int(Total_dias) * int(Total_horas)
+print('A pessoa ' + nome + ' estudo em ' + Total_dias + ' dias ' + Total_horas + ' horas por dia')
+print('Em total estudo ' + str(total) + ' horas pela semana pra o curso do ' + curso);
